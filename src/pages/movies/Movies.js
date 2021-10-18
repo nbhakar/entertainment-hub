@@ -23,6 +23,7 @@ function Movies() {
   };
   useEffect(() => {
     fetchMovies();
+    // eslint-disable-next-line
   }, [page,genreForURL]);
 
   return (
